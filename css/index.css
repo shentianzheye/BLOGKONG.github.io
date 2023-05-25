@@ -100,9 +100,6 @@ body .shell-main-nav .logo span {
 }
 
 body .shell-main-nav ul {
-  .chinese, .english {
-    display: block;
-  }
   width: 600px;
   height: 100%;
   display: flex;
