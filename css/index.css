@@ -79,7 +79,7 @@ body .shell-main-nav {
 }
 
 body .shell-main-nav .logo {
-  width: 220px;
+  width: 260px;
   height: 100%;
   position: absolute;
   left: 5%;
@@ -101,9 +101,9 @@ body .shell-main-nav .logo span {
 
 body .shell-main-nav ul {
   width: 600px;
-  height: 100%;
+  height: 120%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   right: 5%;
@@ -130,7 +130,7 @@ body .shell-main-nav ul li a {
   display: block;
   width: 100%;
   height: 100%;
-  line-height: 60px;
+  line-height: 27px;
   text-align: center;
 }
 
@@ -167,8 +167,8 @@ body .shell-main-lbt {
   background-image: url("../image/lbt.gif");
   background-color: #fff;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50%;
+  background-size: 480px 500px;
+  background-position: 10%;
 }
 
 body .shell-main-lbt .images {
@@ -183,6 +183,7 @@ body .shell-main-lbt .images {
 
 body .shell-main-lbt .images .img {
   position: relative;
+  left: 240px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -192,7 +193,7 @@ body .shell-main-lbt .images .img {
 }
 
 body .shell-main-lbt .images .img .shell-main-lbt-word {
-  width: 600px;
+  width: 650px;
   overflow-x: hidden;
   height: 200px;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
@@ -214,7 +215,8 @@ body .shell-main-lbt .images .img .shell-main-lbt-word h2 {
 }
 
 body .shell-main-lbt .images .img .shell-main-lbt-word span {
-  color: #3a3a3a;
+  font: 400 22px 'font';
+  color: #00BFFF;
   transition: .6s;
   transition-delay: .4s;
   transform: translate(-620px);
@@ -462,7 +464,8 @@ body .shell-main-content-right span {
 }
 
 body .shell-main-content-right img {
-  width: 100%;
+  width: 400px;
+  height: 200%;
 }
 
 body .shell-main-bottom {
