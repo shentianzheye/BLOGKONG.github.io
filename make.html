@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>网页制作</title>
+    <title>研究经历</title>
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/all.css">
     <style>
@@ -30,12 +30,47 @@
             background-image: linear-gradient(to bottom, #a1e6ff, #a1e6ff);
             height: 700px;
         }
-
+		
+		.b1 img {
+            width: 90px;
+            height: 100px;
+            position: absolute;
+			right:1230px;
+			top:245px;
+        }
+		
+		.b2 img {
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			right:1227px;
+			top:455px;
+        }
+		
+		.b3 img {
+			width: 340px;
+			height: 195px;
+			position: absolute;
+			right:55px;
+			top:180px;
+        }
+		
+		.b4 img {
+			width: 340px;
+			height: 195px;
+			position: absolute;
+			right:55px;
+			top:430px;
+        }
+		
         header img {
             width: 500px;
             height: 500px;
             position: relative;
         }
+		
+
+		
 
         header h2 {
             font: 100 60px '';
@@ -47,29 +82,43 @@
         }
 
         header p {
-            font: 100 30px '';
+            font: 100 70px '';
             letter-spacing: 5px;
         }
 
         .h-b {
             display: flex;
             justify-content: space-evenly;
-            width: 90%;
+            width: 70%;
 
         }
 
         .h-b p {
             color: #fff;
             margin-bottom: 10px;
+
         }
 
-        .h-b-l,
+        .h-b-l {
+            width: 20%;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+			text-align: right;
+            flex-direction: column;
+        }
         .h-b-r {
             width: 20%;
             display: flex;
             justify-content: space-around;
             align-items: center;
+			text-align: left;
             flex-direction: column;
+        }
+		
+        .h-b-l,
+        .h-b-r span{
+			font: 100 25px '';
         }
 
         /* ------------------------------------------------------------------ */
@@ -252,28 +301,46 @@
             </div>
         </div>
         <header>
-            <h2>KONG-网页设计与制作</h2>
+            <h2>KONG-研究经历</h2>
             <!-- <p>只做最优质的产品</p> -->
+			<div class="badge">
+				<div class="b1">
+					<img src="./image/badge1.jpg" alt="">
+				</div>
+				<div class="b2">
+					<img src="./image/badge2.jpg" alt="">
+				</div>
+				<div class="b3">
+					<img src="./image/badge3.jpg" alt="">
+				</div>
+				<div class="b4">
+					<img src="./image/badge3.jpg" alt="">
+				</div>
+			</div>
             <div class="h-b">
                 <div class="h-b-l">
                     <div class="h-b-l-h">
-                        <p>极快的效率</p>
-                        <span>我们在了解您的需求之后将会以最快的速度安排技术人员开始进行制作与设计，在最短的时间给您呈现出最好的效果</span>
+						<p>高中</p>
+                        <span>山东师范大学</br>
+						附属中学</span>
                     </div>
                     <div class="h-b-l-b">
-                        <p>优质的服务</p>
-                        <span>当您在我们这里制作网页之后，往后该网页的一切售后我们都会一直为您服务，如果您有什么需求要更改，我们也会免费为您更改</span>
+                        <p>本科</p>
+                        <span>上海海事大学</br>
+						物流工程学院</br>
+						电气工程</br>
+						及其自动化专业</span>
                     </div>
                 </div>
                 <img src="./image/网站设计.png" alt="">
                 <div class="h-b-r">
                     <div class="h-b-r-h">
-                        <p>诚信的店铺</p>
-                        <span>我们店铺交过2000R的保证金，在制作完成之后我们会先录视频给您过目一次先，等您那没有问题后我们才会发货</span>
+                        <p>硕士</p>
+                        <span>日本上智大学</br>绿色科学与工程系</br>理工学研究科</br>轨道交通电气方向</span>
                     </div>
                     <div class="h-b-r-b">
-                        <p>绝对的好评</p>
-                        <span>在我们这边下过单的客户都纷纷秒不绝口，我们制作出的网页都会超乎您的预期，在不收取额外费用的同时制作出比其他店更好更强的效果</span>
+                        <p>博士</p>
+                        <span>日本上智大学</br>绿色科学与工程系</br>理工学研究科</br>轨道交通电气方向</span>
                     </div>
                 </div>
             </div>
@@ -283,13 +350,11 @@
                 <div class="left">
                     <div class="top">
                         <h2>简介：</h2>
-                        <span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个专注于网页设计与建设的技术团队！<br />
-                            　山羊的前端小窝是一个高素质的技术团队，凝聚了一批行业类年轻、有活力的成员。他们在各自的阵地上有着出色的表现以及丰富的实战经验，更具魅力的是他们的创造力和奉献精神。<br /> 　
-                            我们团队的成员都是设计界的精英，受过高等的艺术深造，经过多重工作实战磨练，并拥有与各国内外各大企业的成功合作经验。我们的实力和配合绝对可以胜任任何有具有挑战性的设计工作！</span>
+                        <span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性格开朗，积极上进，具有良好的人际交往能力与组织协调能力，及极强的团队协作意识和责任感。认真踏实，积极主动，肯钻研。</span>
                     </div>
                     <div class="top">
-                        <h2>经历：</h2>
-                        <br><span>2020年，大一加入工作室</span><br>
+                        <h2>学历：</h2>
+                        <br><span>2015年，毕业于山东师范大学附属中学</span><br>
                         <br><span>2021年，参加工作室的各类比赛，承接各种项目并开启了自己的店铺</span><br>
                         <br><span>2022年，工作室纳新，召集了各类精英</span>
                     </div>
