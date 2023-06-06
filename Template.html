@@ -113,7 +113,7 @@
 							Research
 						</a>
 					</li>
-                    <li><a href="./painter.html">
+                    <li><a href="https://deshikong.notion.site/60e7ed3393214539b617031af678c648?v=c157484592b049aaaf2b2049facdda11&pvs=4">
 							知识库<br />
 							Database
 						</a>
@@ -141,9 +141,9 @@
     <script>
         let images = document.querySelector('.images')
         let image = document.querySelector('.image')
-        for (let i = 1; i < 48; i++) {
+        for (let i = 1; i < 14; i++) {
             var lis = document.createElement('div')
-            lis.innerHTML = `<img class="img" src='./image/img/img (` + i + `).png'>`
+            lis.innerHTML = `<img class="img" src='./image/img/img (` + i + `).jpg'>`
             images.appendChild(lis)
         }
         let img = document.querySelectorAll('.img')
@@ -151,7 +151,7 @@
             img[i].addEventListener("click", () => {
                 image.style.display = "flex"
                 let index = i + 1
-                image.innerHTML = "<img src='./image/img/img (" + index + ").png'>"
+                image.innerHTML = "<img src='./image/img/img (" + index + ").jpg'>"
                 document.body.style.overflow = 'hidden'; //禁止页面滑动
             })
         }
