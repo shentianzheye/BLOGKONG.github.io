@@ -356,6 +356,7 @@ body .shell-main-header-left-bottom {
   transition: .8s;
   transition-delay: .2s;
   font-size: 20px;
+  font-family: 'Meiryo', 'MS Gothic', sans-serif;
 }
 
 body .shell-main-header-right {
